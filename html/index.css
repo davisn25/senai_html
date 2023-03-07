@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    gap: 200px;
+}
+
+#home {
+    display: flex;
+    gap: 24px;
+}
+
+main {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+#main_image {
+    width: 500px;
+    height: auto;
+}
+
+#image_section {
+    display: flex;
+    gap: 69px;
+    margin-top: 48px;
+    justify-content: center;
+    text-align: center;
+}
+
+.image img {
+    height: 200px;
+    width: auto;
+}
